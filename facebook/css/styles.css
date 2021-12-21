@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   background-color:  #d8f2ff; 
+  
+}
+.date{
+    height: 70px;
+background-color: #456aaf;
+color: white;
+width: 750px;
+} 
+.mana , .pie{
+    float: right;
+    width: 480px;
+   ;
+}
+#paleta{
+    width: 100px;
+    background-color: #4b6b9e;
+    color: white;
+    
+}
+#tarea{
+    width: 200px;
+    display: inline;
+}
+#clase{
+    background-color: #78c45c;
+    color: rgb(145, 125, 125);
+    border-radius: 2px;
+}
+header{
+    margin: auto;
+}
+#teclado{
+    width: 240px;
+}

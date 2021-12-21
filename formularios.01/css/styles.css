@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: x-large;
+}
+body{
+    background-color: #1c1a1a;
+    padding: 10%;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+}
+input {
+    display: block;
+    margin-bottom: 15px;
+}
+form .form_header {
+    background-color: #42a3f4;
+    color: #fce2e2, 245, 245);
+    padding: 25px 16px;
+    border-radius: 15px 15px 0px 0px;
+}
+form .form_body{
+    padding: 55px 45px;
+    padding-bottom: 25px;
+    background-color: #7d7d7d;
+    color: #ffeded;
+}
+.form_body > input[type='text'],
+.form_body > input[type='password'] {
+    width: 95%;
+    font-size:smaller;
+    padding: 10px 2%;
+    border-radius: 5px;
+    border: none;
+}
+.custom_checkbox > * {
+    display: inline;
+    margin-top: 15px;
+    font-size: smaller;
+}
+form .form_footer{
+    background-color: #9e9999;
+    padding: 0px 40px;
+    padding-bottom: 40px;
+    border-radius: 0px 0px 10px 10px;
+}
+.form_footer > button {
+    background-color: #3c9eee;
+    color: #e2d2d2;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #0000004d;
+    font-size: smaller;
+}
+input[type='checkbox']:checked, 
+input[type='checkbox']:not(:checked) {
+   display: inline;
+}
+input[type='checkbox'] + label {
+    position: relative;
+    cursor:pointer;
+    padding-left: 30px;
+}
+
+input[type='checkbox'] + label::before {
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    right: 0px;
+    background: white;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+}
+input[type='checkbox']:checked + label::after{
+    position: initial;
+    left: 2px;
+    top: 8px;
+    width: 16px;
+    height: 16px;
+    background: #40a2f2;
+    border-radius: 3px;
+}
