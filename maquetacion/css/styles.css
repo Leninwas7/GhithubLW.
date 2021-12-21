@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background-color: #dfd6d6;
+}
+body{
+    width: 800px;
+    background-color: #7fcf7f;
+     margin-inline: auto;
+}
+header{
+    height: 100px;
+    margin: 5px;
+    background-color: #98bf5d;   
+}
+nav {
+    height: 30px;
+    background-color: #66e362;
+    margin: 10px;
+}
+main{
+    height: 450px;
+    background-color: #abd769;
+    margin: 10px;
+}
+main section {
+    width: 550px;
+    height: 100%;
+    background-color: rgb(70, 189, 124);
+    float:left
+}
+main section article {
+    background-color: #a59494;
+    height: 30%;
+    margin: 65px 15px;
+}
+
+main aside{
+    width: 220px;
+    height: 100%;
+    background-color: #05bc61;
+    float: right;
+}
+footer{
+    height: 50px;
+    background-color: #039603;
+    margin: 15px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://kit.fontawesome.com/1b697308d4.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Formulario ejercicio</title>
+  </head>
+  <body>
+    <form name="formulario" action="send.php" method="post">
+      <div class="form_header">
+      </div>
+      <div class="form_body">
+        <input type="text" placeholder="Username" required/>
+        <input type="password" placeholder="Password" required/>
+        <div class="custom_checkbox">
+          <input type="checkbox" id="keep_me" required/>
+          <label for="keep_me"> Keep me logged in</label>
+        </div>
+      </div>
+      <div class="form_footer">
+        <button type="submit">
+          SIGN IN
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
